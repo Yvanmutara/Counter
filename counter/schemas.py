@@ -1,6 +1,6 @@
 """Counter MODULE"""
 from flask_marshmallow import Marshmallow
-from api.models import Counter
+from .models import Counter
 # Create an instance of the Marshmallow class
 ma = Marshmallow()
 
